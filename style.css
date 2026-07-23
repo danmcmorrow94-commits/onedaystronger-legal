@@ -131,7 +131,9 @@ body {
   background: rgba(245,240,230,.1); border: 1px solid rgba(245,240,230,.25);
   color: var(--cream); padding: .7rem 1.3rem; border-radius: 999px;
   font-size: .9rem; font-weight: 600; letter-spacing: .02em;
+  text-decoration: none; transition: background .15s ease, border-color .15s ease;
 }
+.cta:hover { background: rgba(244,162,97,.16); border-color: rgba(244,162,97,.5); }
 .cta .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--sage); flex: none; }
 
 /* section scaffolding */
